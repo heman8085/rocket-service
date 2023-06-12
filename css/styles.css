@@ -1,0 +1,235 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+font-family: "montserrat";
+}
+
+h1 {font-family:"Golos Text";
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+h2 {
+    font-family:"Golos Text";
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family:"Golos Text";
+    font-size: 1.5rem;    
+}
+p {
+    color: #818181; 
+}
+
+
+
+
+/*//////////////////// navigation bar //////////////////*/
+
+.navbar {
+    padding: 0 0 2rem;
+    background-color:#7e47d1 ;
+    
+    
+}
+.logo-img{
+    width: 30vh;
+    
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:bold ;
+    color: rgb(251, 249, 249);
+    padding-left: 18px;
+   
+}
+.nav-item {
+    padding: 0  18px;
+     
+}
+.nav-link {
+    font-size:1.6rem ;
+    font-family: "Monserrat-light";
+    
+    
+}
+
+
+
+/*///////////// title section /////////////////////////*/
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+.title-img {
+    width: 28%;
+ position: absolute;
+ right: 16%;
+ top: 18%;
+
+} 
+.rows {
+    padding: 3% 10% 7%;
+    color: white;
+    background-color: #22034f;
+}
+/*/////////// content section /////////////*/
+
+.content {
+    background-color: #22034f;
+    width: 70%;
+    margin: 3rem auto;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-column-gap:1.25rem ;
+    grid-row-gap:1.25rem;
+}
+.content div {
+    height: 450px;
+    width: 400px;
+    background-color: rgb(32, 68, 93);
+    font-size: 1.3rem;
+    border-radius:0.25rem;
+   
+}
+
+
+
+
+/*///////////////// features section /////////////////////*/
+
+#features {
+    padding: 3% 15%;
+    background-color: white;
+    position:relative;
+
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.fa-solid {
+    color: #22034f;
+    margin-bottom: 1rem;
+}
+.fa-solid:hover {
+    color: #7e47d1;
+}
+.social-icon:hover {
+    color: #7e47d1;
+}
+.social-icon {
+    color: #22034f;
+    margin-bottom: 1rem;
+}
+.fa-people-group {
+    color:white;
+
+}
+.Book-button {
+    position: relative;
+    left: 110px;
+    padding: 0px 7px 0px 7px;
+    margin:3px 0px 0px 0px ;
+}
+
+/*////////// testimonials //////////*/
+
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    background-color:#7e47d1 ;
+    color: #ffff;
+}
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* ///////////////pricing section ///////////////*/
+
+#pricing {
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(242, 242, 124);
+    
+}
+.pricing-column {
+    padding: 3% 2%;
+    background-color: #7e47d1;
+    
+}
+
+/*////////////call to action //////////// */
+#cta {
+    text-align: center;
+    background-color: #22034f;
+    color: white;
+    padding: 3% 15%;
+}
+.cta-heading {
+    font-family: "Golos Text";
+    font-size: 2.5rem;
+    line-height: 1;
+
+}
+
+/*////////// footer//////// /////*/
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.social-icon {
+    margin: 25px 15px;
+}
+
+/*//////// for Resposive Website///////*/
+@media (max-width:1200px) {
+.rows {text-align: center;}
+
+ .title-img {position: static;
+    
+
+}
+.content{
+    width:130vh;
+    margin:0.5rem auto;
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.content div {
+    height:70vh;
+}
+}
+@media  screen and (max-width: 900px) {
+    .rows {text-align: center;}
+
+ .title-img {position: static;
+ }
+    .content{
+        width: 80vh;
+        margin:2rem auto;
+        padding: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+   
+    .content div {
+        height:72vh;
+        
+    }
+}
+
